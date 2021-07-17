@@ -1,0 +1,389 @@
+
+body{
+    background-color: #feeafa; /* #ffcdb2; */
+    font-size: 1.2em;
+    font-weight: 300;
+    height: 100%;
+}
+.row {
+    margin-right: 0px;
+     margin-left: 0px;
+}
+#bg{
+    
+  background-image: url("../img/tittle.jfif");
+  background-position: right !important;
+  height: 100vh;
+  max-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+
+.navbar-brand {
+    font-size: 1.7rem;
+    text-transform :uppercase;
+    font-weight: 200;
+    font-family: 'Indie Flower', cursive;
+        animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s; /* don't forget to set a duration! */
+      
+}
+
+.navbar-light .navbar-brand {
+    color: whitesmoke;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #3e1f47;
+}
+
+@media(max-width:768px){
+    .navbar-brand {
+        font-size: 1.3rem;
+     
+    }
+    .navbar-collapse {
+        background-color: #feeafac2;
+        text-align: center;
+        font-weight: 500;
+        
+} 
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.2rem !important;
+    margin:20px 0;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #3e1f47;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3e1f4794;
+}
+
+}
+.navbar.scrolled {
+    background:#b5838d;
+    transition: background 500ms;
+}
+
+.header{
+text-align: left;
+background:none;
+padding-top: 23rem;
+color:#3e1f47;
+font-family: 'Lato', sans-serif;
+font-weight:300;
+}
+.header h1{
+    font-size: 5.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 0;
+
+}
+.header p{
+display: inline;
+margin-inline-start: 6vw;
+font-weight: 300;
+font-size:2em;
+animation: fadeInLeft;
+animation-duration: 3s;
+}
+
+.header blockquote p{
+display: inline;
+margin-inline-start: 11vw;
+font-weight: 200;
+font-size:1.5em;
+animation: fadeInLeft;
+animation-duration: 4s;
+}
+
+#tittle {
+    padding-top: 50px !important;
+    height: auto !important;
+}   
+
+
+
+@media(max-width:878px){
+#bg{
+    
+        height:auto;
+      
+}
+    .header{
+        display: flex;
+        flex-flow: column;
+        padding-top: 28%;
+        background:none;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        
+        }
+        .header h1 {
+            font-size: 9vw;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 45%;
+            line-height: normal;
+        }
+        .header p {
+        
+        font-weight: 400;
+        font-size:1em;
+        margin-inline-start: 0px;
+    
+        
+        }
+        .header blockquote p{
+        font-weight: 300;
+        font-size:0.8em;
+        margin-inline-start: 20px;
+        }
+}
+
+#tittle{
+    padding-top: 16vh;
+    height: 100vh;
+    max-height: 100vh;
+    
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden; */
+}
+#tittle .divider{
+    width: 160px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #3e1f473d;
+   
+}
+.divider.is-visible{
+    animation: fadeInDown;
+    animation-duration: 0.5s;
+}
+#tittle h2{
+    text-align: center;
+    font-size: 3vw;
+    text-transform :uppercase;
+    font-weight: 200;
+    font-family: 'Indie Flower', cursive;
+    color: #3e1f47;
+    letter-spacing: .16em;
+   
+    
+}
+
+
+.nav-link {
+    color: #3e1f47;
+}
+
+ .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.7);
+}
+
+a:hover {
+    color:rgba(0,0,0,.7);
+   
+}
+img{
+    display: inline;
+}
+
+.fill {
+    width: 900px;
+    
+  }
+.fill.is-visible{
+    animation: zoomIn;
+    animation-duration: 3s;
+}
+.padd{
+      padding-right: 0;
+      padding-left:0;
+  }
+
+  .contact{
+      margin-top: 8% !important;
+      height: 100vh;
+  }
+
+.icon{
+    width:12%;
+   color: #3e1f47 !important;
+   
+}
+.icon.is-visible{
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2.5s; /* don't forget to set a duration! */
+}
+.p-icons{
+    width: 18%;
+}
+.p-icons.is-visible{
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+}
+.blurb p {
+    color: #6d6875;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    
+}
+
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+ }
+
+ @media(max-width:1012px){
+    .offer{
+        margin-top: 200px;
+    }
+   
+}
+.offer h2{
+    
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+    
+    
+}
+.offer-hr{
+    
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #3e1f47, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #3e1f47, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #3e1f47, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #3e1f47, #f0f0f0); 
+}
+
+.offer-hr.is-visible{
+    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+ .style-hr { 
+     margin: 70px !important;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #3e1f47, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #3e1f47, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #3e1f47, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #3e1f47, #f0f0f0); 
+    
+  }
+
+  .style-hr.is-visible{
+    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+  .style-hr.icon.is-visible{
+    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+  }
+  
+
+
+/* form */
+
+.my-img{
+    background-image: 
+    radial-gradient(circle, rgba(238, 174, 202, 0.842) 0%, rgba(148, 188, 233, 0.726) 100%),
+     url("img/letter.jpg");
+    background-position: right;
+    height: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.my-card-bg{
+ 
+    background-color: rgba(254, 234, 250, 0.267); 
+    
+}
+.napisz-znajdz{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 4vh;
+}
+.mnie-icon{
+    color:#b5838d;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+.btn-success{
+    color: #fff;
+    background-color: #b5838d;
+    border-color: #b5838d;
+}
+.btn-success:hover{
+    color: #fff;
+    background-color: #3e1f476c;
+    border-color: #3e1f476c;
+    /* #3e1f47; */
+}
+.btn-success:focus{
+    color: #fff !important;
+    background-color: #3e1f476c !important;
+    border-color: #3e1f476c !important;
+    -webkit-box-shadow: 0px 0px 8px 5px #B5838D; 
+box-shadow: 0px 0px 8px 5px #B5838D;
+  }
+
+  .form-dark .font-small {
+    font-size: 0.8rem; }
+
+  
+  .form-dark .md-form label {
+    color: #fff; }
+
+  .form-dark input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid rgba(200, 148, 228, 0.212);
+    -webkit-box-shadow: 0 1px 0 0 rgba(200, 148, 228, 0.212);
+    box-shadow: 0 1px 0 0 rgba(200, 148, 228, 0.212); }
+
+  .form-dark input[type=text]:focus:not([readonly]) + label {
+    color: #fff; }
+
+  .form-dark input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid rgba(200, 148, 228, 0.212);
+    -webkit-box-shadow: 0 1px 0 0 rgba(200, 148, 228, 0.212);
+    box-shadow: 0 1px 0 0 rgba(200, 148, 228, 0.212); }
+
+  .form-dark input[type=password]:focus:not([readonly]) + label {
+    color: #fff; }
+
+  
+  .form-dark textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgba(200, 148, 228, 0.212); 
+    -webkit-box-shadow: 0 1px 0 0 rgba(200, 148, 228, 0.212); 
+    box-shadow: 0 1px 0 0 rgba(200, 148, 228, 0.212); 
+}
+
+
+  .social-icons{
+      margin:2vw 0;
+  }
+.social-icons img{
+    width:3vw;
+    margin:0.5vw;
+    display: inline-flex;
+}
+
+.copyright{
+    color:#3e1f47;
+}
